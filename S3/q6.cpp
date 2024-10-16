@@ -1,22 +1,21 @@
 #include<iostream>
 using namespace std;
-#define size 20
 
 int linear (int[],int,int);
 int main()
 {
-    int a[size],n,i,data,index;
+    int n,i,data,index;
 
     cout<<"Enter the number of elements:\n";
     cin>>n;
-
+    int a[n];
     cout<<"Enter elements:\n";
     for(i=0; i<n; i++)
         cin>>a[i];
-    system("clear");
+    //system("clear");
     cout<<"Enter element to be searched:\n";
     cin>>data;
-    system("clear");
+    //system("clear");
     cout<<"Given array is:\n";
     for(i=0; i<n; i++)
         cout<<a[i]<<"\t";

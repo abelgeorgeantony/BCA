@@ -8,7 +8,7 @@ int main()
     int a[50],item,n,i,index;
     cout<<"Enter the desired array size:\n";
     cin>>n;
-    cout<<"Enter the array elements:\n";
+    cout<<"Enter the sorted array:\n";
     for(i=0; i<n; i++)
         cin>>a[i];
 
