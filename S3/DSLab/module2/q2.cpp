@@ -78,4 +78,6 @@ int main()
 	cout<<"Infix expression: "<<infix_exp<<"\n";
 	postfix_exp=infixtopostfix(stack,infix_exp);
 	cout<<"Postfix expression: "<<postfix_exp;
+	cout<<"\n";
+	return 0;
 }
