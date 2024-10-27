@@ -140,11 +140,13 @@ void llist::input_list()
 		system("clear");
 		cout<<"Enter data of Student "<<i<<":\n";
 		cout<<"Name: ";
-		cin>>data.name;
+		getline(cin>>ws, data.name);
+		//cin>>data.name;
 		cout<<"Age: ";
 		cin>>data.age;
 		cout<<"Course: ";
-		cin>>data.course;
+		getline(cin>>ws, data.course);
+		//cin>>data.course;
 		cout<<"Roll Number: ";
 		cin>>data.rollno;
 		insert_toend(data);
@@ -187,7 +189,7 @@ int main()
 		{
 		    string data;
 		    cout<<"Search: ";
-			cin>>data;
+			getline(cin>>ws, data);
 			students.tableheader();
 			students.search(data);
 			cin.get();
