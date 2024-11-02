@@ -33,21 +33,23 @@ class dllist
 void dllist::display_list_forward()
 {
 	node *displaynode = HEAD;
-	while(displaynode != nullptr)
+	while(displaynode->next != HEAD)
 	{
 		cout<<displaynode->data<<"\t";
 		displaynode = displaynode->next;
 	}
+	cout<<displaynode->data;
 	cout<<"\n";
 }
 void dllist::display_list_backward()
 {
 	node *displaynode = TAIL;
-	while(displaynode != nullptr)
+	while(displaynode->prev != TAIL)
 	{
 		cout<<displaynode->data<<"\t";
 		displaynode = displaynode->prev;
 	}
+	cout<<displaynode->data;
 	cout<<"\n";
 }
 
