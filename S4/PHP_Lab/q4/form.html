@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Employee Form</title>
+        <script src="./validate.js"></script>
+    </head>
+    <body onload="validate_form()">
+        <form action="./form_submit.php">
+            <label id="l_empcode" for="empcodeid">Employee code:</label><br />
+            <input type="number" id="empcodeid" name="empcode" value="" /><br />
+
+            <label id="l_name" for="nameid">Name:</label><br />
+            <input type="text" id="nameid" name="name" value="" /><br />
+
+            <label id="l_address" for="addressid">Address:</label><br />
+            <textarea id="addressid" name="address"></textarea><br />
+
+            <label id="l_dob" for="dobid">Date of Birth:</label><br />
+            <input type="date" id="dobid" name="dob" value="" /><br />
+
+            <label id="l_gender">Gender:</label><br />
+            <input type="radio" id="maleradioid" name="gender" value="male" />
+            <label for="maleradioid">Male</label>
+            <input
+                type="radio"
+                id="femaleradioid"
+                name="gender"
+                value="female"
+            />
+            <label for="femaleradioid">Female</label><br />
+
+            <label id="l_mobnum" for="mobnumid">Mobile Number:</label><br />
+            <input type="number" id="mobnumid" name="mobnum" value="" /><br />
+
+            <label id="l_email" for="emailid">Email:</label><br />
+            <input type="text" id="emailid" name="email" value="" /><br /><br />
+
+            <input
+                id="submitbutton"
+                type="submit"
+                value="Submit"
+                disabled="true"
+            />
+        </form>
+    </body>
+</html>
