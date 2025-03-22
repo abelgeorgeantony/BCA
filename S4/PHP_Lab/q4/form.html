@@ -6,34 +6,84 @@
     </head>
     <body onload="validate_form()">
         <form action="./form_submit.php">
-            <label id="l_empcode" for="empcodeid">Employee code:</label><br />
-            <input type="number" id="empcodeid" name="empcode" value="" /><br />
+            <label id="l_empcode" for="empcodeid">Employee Code:</label><br />
+            <input
+                type="number"
+                id="empcodeid"
+                name="empcode"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br />
 
             <label id="l_name" for="nameid">Name:</label><br />
-            <input type="text" id="nameid" name="name" value="" /><br />
+            <input
+                type="text"
+                id="nameid"
+                name="name"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br />
 
             <label id="l_address" for="addressid">Address:</label><br />
-            <textarea id="addressid" name="address"></textarea><br />
+            <textarea
+                id="addressid"
+                name="address"
+                oninput="validate_form()"
+                required
+            ></textarea
+            ><br />
 
-            <label id="l_dob" for="dobid">Date of Birth:</label><br />
-            <input type="date" id="dobid" name="dob" value="" /><br />
+            <label id="l_dob" for="dobid">Date Of Birth:</label><br />
+            <input
+                type="date"
+                id="dobid"
+                name="dob"
+                value=""
+                oninput="validate_form() "
+                required
+            /><br />
 
             <label id="l_gender">Gender:</label><br />
-            <input type="radio" id="maleradioid" name="gender" value="male" />
+            <input
+                type="radio"
+                id="maleradioid"
+                name="gender"
+                value="male"
+                oninput="validate_form()"
+                required
+            />
             <label for="maleradioid">Male</label>
             <input
                 type="radio"
                 id="femaleradioid"
                 name="gender"
                 value="female"
+                oninput="validate_form()"
+                required
             />
             <label for="femaleradioid">Female</label><br />
 
             <label id="l_mobnum" for="mobnumid">Mobile Number:</label><br />
-            <input type="number" id="mobnumid" name="mobnum" value="" /><br />
+            <input
+                type="number"
+                id="mobnumid"
+                name="mobnum"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br />
 
             <label id="l_email" for="emailid">Email:</label><br />
-            <input type="text" id="emailid" name="email" value="" /><br /><br />
+            <input
+                type="email"
+                id="emailid"
+                name="email"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br /><br />
 
             <input
                 id="submitbutton"
@@ -43,4 +93,11 @@
             />
         </form>
     </body>
+    <style>
+        input,
+        textarea {
+            margin-top: 2px;
+            margin-bottom: 2%;
+        }
+    </style>
 </html>
