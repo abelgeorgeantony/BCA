@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Driving Licence</title>
+        <script src="./validate.js"></script>
+    </head>
+    <body onload="validate_form()">
+        <form action="./form_submit.php">
+            <h2>Applicant Details</h2>
+            <label id="l_name" for="nameid">Name:</label><br />
+            <input
+                type="text"
+                id="nameid"
+                name="name"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br />
+
+            <label id="l_address" for="addressid">Address:</label><br />
+            <textarea
+                id="addressid"
+                name="address"
+                oninput="validate_form()"
+                required
+            ></textarea
+            ><br />
+
+            <label id="l_bloodgroup" for="bloodgroupid">Blood Group:</label
+            ><br />
+            <select
+                id="bloodgroupid"
+                name="bloodgroup"
+                oninput="validate_form()"
+            >
+                <option value="null">Select a group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option></select
+            ><br />
+
+            <label id="l_dob" for="dobid">Date Of Birth:</label><br />
+            <input
+                type="date"
+                id="dobid"
+                name="dob"
+                value=""
+                oninput="validate_form() "
+                required
+            /><br />
+
+            <label id="l_aadharnum" for="aadharnumid">Aadhar Number:</label
+            ><br />
+            <input
+                type="number"
+                id="aadharnumid"
+                name="aadharnum"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br />
+
+            <label id="l_mobnum" for="mobnumid">Mobile Number:</label><br />
+            <input
+                type="number"
+                id="mobnumid"
+                name="mobnum"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br />
+
+            <label id="l_email" for="emailid">Email:</label><br />
+            <input
+                type="email"
+                id="emailid"
+                name="email"
+                value=""
+                oninput="validate_form()"
+                required
+            /><br /><br />
+
+            <input
+                id="submitbutton"
+                type="submit"
+                value="Submit"
+                disabled="true"
+            />
+        </form>
+    </body>
+    <style>
+        input,
+        textarea,
+        select {
+            margin-top: 2px;
+            margin-bottom: 2%;
+        }
+    </style>
+</html>
