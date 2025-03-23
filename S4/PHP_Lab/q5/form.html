@@ -13,10 +13,15 @@
         </h2>
         <form
             action="./form_submit.php"
-            style="width: fit-content; align-self: center"
+            style="
+                width: fit-content;
+                align-self: center;
+                display: flex;
+                flex-direction: column;
+            "
         >
             <div style="display: grid; grid-template-columns: auto auto">
-                <div>
+                <div style="border-right: solid 2px; padding-right: 4px">
                     <label id="l_name" for="nameid">Name:</label>
                     <input
                         type="text"
@@ -29,18 +34,7 @@
                     />
                 </div>
 
-                <div>
-                    <label id="l_address" for="addressid">Address:</label>
-                    <textarea
-                        id="addressid"
-                        name="address"
-                        placeholder="Enter your house address"
-                        oninput="validate_form()"
-                        required
-                    ></textarea>
-                </div>
-
-                <div>
+                <div style="padding-left: 4px">
                     <label id="l_bloodgroup" for="bloodgroupid"
                         >Blood Group:</label
                     >
@@ -57,7 +51,18 @@
                     </select>
                 </div>
 
-                <div>
+                <div style="border-right: solid 2px; padding-right: 4px">
+                    <label id="l_address" for="addressid">Address:</label>
+                    <textarea
+                        id="addressid"
+                        name="address"
+                        placeholder="Enter your house address"
+                        oninput="validate_form()"
+                        required
+                    ></textarea>
+                </div>
+
+                <div style="padding-left: 4px">
                     <label id="l_dob" for="dobid">Date Of Birth:</label>
                     <input
                         type="date"
@@ -69,7 +74,20 @@
                     />
                 </div>
 
-                <div>
+                <div style="border-right: solid 2px; padding-right: 4px">
+                    <label id="l_mobnum" for="mobnumid">Mobile Number:</label>
+                    <input
+                        type="number"
+                        id="mobnumid"
+                        name="mobnum"
+                        placeholder="Your 10 digit mobile number"
+                        value=""
+                        oninput="validate_form()"
+                        required
+                    />
+                </div>
+
+                <div style="padding-left: 4px">
                     <label id="l_aadharnum" for="aadharnumid"
                         >Aadhar Number:</label
                     >
@@ -84,20 +102,7 @@
                     />
                 </div>
 
-                <div>
-                    <label id="l_mobnum" for="mobnumid">Mobile Number:</label>
-                    <input
-                        type="number"
-                        id="mobnumid"
-                        name="mobnum"
-                        placeholder="Your 10 digit mobile number"
-                        value=""
-                        oninput="validate_form()"
-                        required
-                    />
-                </div>
-
-                <div>
+                <div style="border-right: solid 2px; padding-right: 4px">
                     <label id="l_email" for="emailid">Email:</label>
                     <input
                         type="email"
@@ -116,6 +121,7 @@
                 value="Submit"
                 disabled="true"
                 onmouseover="showsubmitbuttonerror()"
+                style="width: fit-content; align-self: center"
             />
         </form>
     </body>
