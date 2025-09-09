@@ -19,7 +19,7 @@ class Generator {
     }
 }
 
-public class Fibonacci {
+public class q2_Fibonacci {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(

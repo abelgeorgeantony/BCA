@@ -1,0 +1,55 @@
+Java Lab Cycle
+
+1) Area and Perimeter of a rectangle and square using
+classes and objects
+
+Aim:
+
+Write a menu driven program to find the area and
+perimeter of a rectangle and square using classes and
+objects.
+
+----
+
+2) To Find Fibonacci series up to a limit
+
+Aim:
+
+Write a program to print Fibonacci series up to a given
+number using class and objects.
+
+----
+
+3) Area and perimeter of square and Rectangle using
+method overloading
+
+Aim:
+
+Write a program find the area and perimeter of a square
+and rectangle using method overloading.
+
+----
+
+4) Arithmetic operation using method overloading
+
+Aim:
+
+Write a java program to perform the arithmetic operations
+using the concept of method overloading.
+a) Get two integers as input and return float value as
+output.
+b) Get two float values as input and return integer value
+as output.
+
+----
+
+5) Program using constructors
+
+Aim:
+
+Write a java program using parameterized constructor with two parameters
+id and name. While creating the objects objl and obj2
+passed two arguments so that this constructor gets
+invoked after creation of obj1 and obj2.
+
+----
