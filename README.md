@@ -24,8 +24,9 @@ The repository is structured into directories for each semester, containing the 
 
 ### Semester 5
 
-*   Contains programs from the Java programming lab.
-*   **Language:** Java
+*   **Java_Lab**
+    *   Contains programs from the Java programming lab.
+    *   **Language:** Java
 
 ## Note
 
