@@ -1,55 +1,144 @@
 Java Lab Cycle
 
-1) Area and Perimeter of a rectangle and square using
-classes and objects
+-------------------------------------------
 
-Aim:
+1) Area and Perimeter of a rectangle and square using classes and objects
 
-Write a menu driven program to find the area and
-perimeter of a rectangle and square using classes and
-objects.
+Aim: Write a menu driven program to find the area and perimeter of a rectangle and square using classes and objects.
 
-----
+-------------------------------------------
 
 2) To Find Fibonacci series up to a limit
 
-Aim:
+Aim: Write a program to print Fibonacci series up to a given number using class and objects.
 
-Write a program to print Fibonacci series up to a given
-number using class and objects.
+-------------------------------------------
 
-----
+3) Area and perimeter of square and Rectangle using method overloading
 
-3) Area and perimeter of square and Rectangle using
-method overloading
+Aim: Write a program find the area and perimeter of a square and rectangle using method overloading.
 
-Aim:
-
-Write a program find the area and perimeter of a square
-and rectangle using method overloading.
-
-----
+------------------------------------------
 
 4) Arithmetic operation using method overloading
+Aim: Write a java program to perform the arithmetic operations using the concept of method overloading:
+a) Get two integers as input and return float value as output.
+b) Get two float values as input and return integer value as output.
 
-Aim:
-
-Write a java program to perform the arithmetic operations
-using the concept of method overloading.
-a) Get two integers as input and return float value as
-output.
-b) Get two float values as input and return integer value
-as output.
-
-----
+-----------------------------------------
 
 5) Program using constructors
 
-Aim:
+Aim: WAP using parameterized constructor with two parameters id and name. While creating the objects objl and obj2 pass two arguments so that this constructor gets invoked after creation of obj1 and obj2.
 
-Write a java program using parameterized constructor with two parameters
-id and name. While creating the objects objl and obj2
-passed two arguments so that this constructor gets
-invoked after creation of obj1 and obj2.
+-----------------------------------------
 
-----
+6) Program using constructor overloading
+
+Aim: Write a program in JAVA to create a class Bird and also declare the different parameterized constructor to display the name of Birds
+
+-----------------------------------------
+
+7) Single Inheritance
+
+Aim: Write a java program to implement single inheritance. Design two classes Room and Bedroom. Room class has data members length and breadth and member function area to calculate the area. Bedroom class which is derived from Room has data member height and member function volume to find the volume. Write a Java program to model this relationship.
+
+-----------------------------------------
+
+8) Inheritance
+
+Aim: Design three classes Student, Exam and Result. Student class has data members roll no and name. Exam class which is derived from student class has data members representing marks scored in six subjects. Result which is derived from exam class has its own data member total marks. Write a program to model this relationship.
+
+-----------------------------------------
+
+9) Method Overriding
+
+<ASCII REPRESENTATION OF IMAGE NEEDED>
+
+Aim: Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. For example, SBI, ICICI and AXIS banks could provide 8%, 7%, and 9% rate of interest.Write a java program to demonstrate method overriding.
+
+---------------------------------------
+
+10) Abstract method and classes
+
+Aim: Write a java program in which you will declare an abstract class Vehicle inherits this class from two classes car and truck using the method engine in both display “car has good engine” and “truck has bad engine”.
+
+-----------------------------------------
+
+11) Area of circle using Interface
+
+Aim: Create an interface Shape and child class circle. Area has member function calculateArea() and a constant data member pi(3.14).Write a java program to compute area of circle using the above relationship.
+
+-----------------------------------------
+
+12) Score Calculation using interface
+
+Aim: Write a program to display roll number, marks of two subjects, sports weightage and total score of a student using interfaces. The structure of the classes and interface is given as follows:
+<ASCII REPRESENTATION OF IMAGE NEEDED>
+
+-----------------------------------------
+
+13) User defined package
+
+Aim: Define a package ArithOper that contain classes to perform Addition, Subtraction, Multiplication and Division. Import this package and perform the corresponding operations.
+
+-----------------------------------------
+
+14) Throwing a user defined exception if first number is less than second
+
+Aim: Write a java program to read two numbers and find the sum, if the first number is less than the second number, then throw a user defined expression.
+
+------------------------------------------
+
+15) Print Odd and Even numbers using Thread
+
+Aim: Write a java program to implement two threads ,one for printing odd numbers and another for printing even numbers simultaneously upto a given number.
+
+-----------------------------------------
+
+16) Passing Parameters to Applet
+
+Aim: Write an Applet program to draw a rectangle and circle by passing parameters to Applet.
+
+-------------------------------------------
+
+17) Applet using action Event handling
+
+Aim: Write an Applet program to draw funny face and sad face using action event handling.
+<ASCII REPRESENTATION OF IMAGE NEEDED>
+
+-----------------------------------------
+
+18) Applet using Graphics
+
+Aim: Write applet programs to draw the following :
+a) Olympics logo
+b) Traffic light
+
+-----------------------------------------
+
+19) Arithmetic calculator
+
+Aim: Create a GUI for Arithmetic Calculator using swing components.
+
+---------------------------------------
+
+20) Job Resume
+
+Aim: Prepare a Job Resume using Swing. Accept all required details from user and when the submit button is pressed all the details are to be displayed on a text area.
+
+------------------------------------------
+
+21) JDBC - Select Query
+
+Aim: Create a database named college, table name is
+collegetable, connect your java program jdbc with mysql database and select the fields from the table
+
+----------------------------------------
+
+22) JDBC - Update and Delete Query
+
+Aim: Create a database named Employee and table named Emptable. Connect your java program (JDBC) with MySQL database, insert employee details and do the following:
+a) Update employee name whose employee id is ‘5’
+
+b) Delete the employee record whose employee id is ‘4’.

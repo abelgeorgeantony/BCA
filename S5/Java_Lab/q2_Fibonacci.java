@@ -1,6 +1,5 @@
-import java.io.BufferedReader;
+import java.io.DataInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 class Generator {
 
@@ -22,11 +21,9 @@ class Generator {
 public class q2_Fibonacci {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(
-            new InputStreamReader(System.in)
-        );
+        DataInputStream dis = new DataInputStream(System.in);
         System.out.print("Enter the limit for the Fibonacci series: ");
-        String input = reader.readLine();
+        String input = dis.readLine();
         int limit = Integer.parseInt(input);
 
         Generator fibGenerator = new Generator();
