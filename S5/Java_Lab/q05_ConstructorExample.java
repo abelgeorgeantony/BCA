@@ -17,7 +17,7 @@ class Student {
     }
 }
 
-public class q5_ConstructorExample {
+public class q05_ConstructorExample {
 
     public static void main(String[] args) {
         // Creating objects and passing arguments to the constructor

@@ -51,7 +51,7 @@ class ArithmeticOperations {
     }
 }
 
-public class q4_ArithmeticOverloading {
+public class q04_ArithmeticOverloading {
 
     public static void main(String[] args) {
         ArithmeticOperations ao = new ArithmeticOperations();

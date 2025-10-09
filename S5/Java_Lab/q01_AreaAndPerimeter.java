@@ -27,7 +27,7 @@ class Perimeter {
     }
 }
 
-public class q1_AreaAndPerimeter {
+public class q01_AreaAndPerimeter {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

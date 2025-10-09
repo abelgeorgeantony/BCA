@@ -18,7 +18,7 @@ class Generator {
     }
 }
 
-public class q2_Fibonacci {
+public class q02_Fibonacci {
 
     public static void main(String[] args) throws IOException {
         DataInputStream dis = new DataInputStream(System.in);

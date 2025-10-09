@@ -43,7 +43,7 @@ class Result extends Exam {
 }
 
 
-public class q8_Inheritance {
+public class q08_Inheritance {
   public static void main(String args[]) {
     Result resobj = new Result();
     resobj.Display();

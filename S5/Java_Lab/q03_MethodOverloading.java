@@ -23,7 +23,7 @@ class ShapeCalculator {
     }
 }
 
-public class q3_MethodOverloading {
+public class q03_MethodOverloading {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

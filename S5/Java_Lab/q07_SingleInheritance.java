@@ -19,7 +19,7 @@ class Bedroom extends Room {
     }
 }
 
-public class q7_SingleInheritance {
+public class q07_SingleInheritance {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Bedroom bedroom = new Bedroom();
